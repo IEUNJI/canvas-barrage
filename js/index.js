@@ -132,3 +132,14 @@ $('#add').addEventListener('click', function () {
 video.addEventListener('seeked', function () {
     canvasBarrage.reset();
 });
+
+let play = $('#play');
+play.onclick = function () {
+    if (video.paused) {
+        video.play();
+        this.innerText = '点击暂停';
+    } else {
+        video.pause();
+        this.innerText = '点击播放';
+    }
+};
