@@ -1,0 +1,21 @@
+video {
+    cursor: pointer;
+}
+
+input {
+    vertical-align: middle;
+}
+
+#container {
+    text-align: center;
+}
+
+#videoBox {
+    position: relative;
+    margin: 0 auto;
+    width: 852px;
+}
+
+#canvas {
+    position: absolute;
+}
